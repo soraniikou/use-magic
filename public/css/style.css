@@ -127,7 +127,7 @@ header.chrome {
   resize: vertical;
   min-height: 3.2rem;
   -webkit-appearance: none;
-  touch-action: mainpulation;
+  touch-action: manipulation;
 }
 
 .input-text:focus,
