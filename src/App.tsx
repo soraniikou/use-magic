@@ -69,7 +69,7 @@ export default function App() {
         />
         <div className="row">
           <button type="button" id="btn-drop" className="btn primary btn-script">
-            take shape
+            let it fall
           </button>
         </div>
 
