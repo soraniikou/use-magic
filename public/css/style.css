@@ -119,13 +119,15 @@ header.chrome {
   width: 100%;
   padding: 0.55rem 0.65rem;
   font-family: var(--font-jp);
-  font-size: 0.85rem;
+  font-size: 16px;
   color: var(--text);
   background: rgba(0, 0, 0, 0.35);
   border: 1px solid var(--mist);
   border-radius: 3px;
   resize: vertical;
   min-height: 3.2rem;
+  -webkit-appearance: none;
+  touch-action: mainpulation;
 }
 
 .input-text:focus,
