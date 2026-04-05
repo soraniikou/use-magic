@@ -35,6 +35,7 @@ body {
 #p5-root canvas {
   display: block;
   touch-action: none;
+  pointer-events:none;
 }
 
 .chrome {
