@@ -197,7 +197,7 @@
         }
       },
       diamond: () => {
-        for (let i = 0; i < 24; i++) {
+        for (let i = 0; i < 12; i++) {
           const d = document.createElement("div");
           d.className = "magic-fx-diamond";
           const size = 10 + Math.random() * 22;
