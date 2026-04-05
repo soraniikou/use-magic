@@ -335,6 +335,11 @@
       hasPointer = true;
     };
     p.touchStarted = (e) => {
+      if (e && e.target && (
+    e.target.tagName === 'TEXTAREA' ||
+    e.target.tagName === 'BUTTON'
+  )) return true;
+      
       if (e && e.preventDefault) e.preventDefault();
       if (p.touches && p.touches.length) {
         pointerX = p.touches[0].x;
@@ -344,6 +349,11 @@
       return false;
     };
     p.touchMoved = (e) => {
+      if (e && e.target && (
+    e.target.tagName === 'TEXTAREA' ||
+    e.target.tagName === 'BUTTON'
+  )) return true;
+      
       if (e && e.preventDefault) e.preventDefault();
       if (p.touches && p.touches.length) {
         pointerX = p.touches[0].x;
