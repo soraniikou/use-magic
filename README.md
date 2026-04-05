@@ -1,4 +1,5 @@
-　　　　　　　　use-magic
+            use-magic
+
 体験→https://use-magic.vercel.app
         
   悩みなく　毎日が幸せならいいのに
