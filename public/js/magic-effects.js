@@ -197,10 +197,10 @@
         }
       },
       diamond: () => {
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 6; i++) {
           const d = document.createElement("div");
           d.className = "magic-fx-diamond";
-          const size = 10 + Math.random() * 22;
+          const size = 5 + Math.random() * 11;
           const dur = 3 + Math.random() * 5;
           d.style.cssText = `
             position:fixed;left:${Math.random() * 100}%;top:${Math.random() * 100}%;
